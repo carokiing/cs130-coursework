@@ -20,10 +20,10 @@ p, li {
     line-height: 1.5em;
 }
 #tutorials {
-    background-color:#539B66;
+    background-color:lightgreen;
 }
 #classwork {
-    background-color: lightgreen;
+    background-color: #539B66;
 }
 #homework {
 background-color: #B07156;

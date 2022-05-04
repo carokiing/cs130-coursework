@@ -108,6 +108,12 @@ footer {
   background: #1cb954;
 }
 
+h1{
+    padding: 15x;
+ }
+
+
+
 @media screen and (max-width: 700px) {
     .player {
         min-width: 200px;
@@ -121,3 +127,5 @@ footer {
         margin-left: 12px;
     }
 }
+
+

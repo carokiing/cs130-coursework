@@ -80,26 +80,74 @@ footer {
 /* Part A: Left Navigation */
 /***************************/
 
-/* Your Code Here */
+.fas-fa-home h1 {
+   margin: 50px;
+}
 
+.sidebar h1 {
+    margin: 51px;
+}
 
 
 /********************************/
 /* Part B: Header & Nav Styling */
 /********************************/
 
-/* Your Code Here */
+nav {
+    display: flex;
+    justify-content: first baseline;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    align-items: flex-start left;
+}
+.Upgrade header {
+    display: flex;
+    justify-content: right;
+    align-items: flex-start right;
+    margin: 5px;
+    border: 5px #1cb954;
+}
 
-
-
-
+footer-div {
+    width: auto;
+    height: auto;
+    border-radius: 0%;
+    padding: 5px
+    }
 
 /*************************/
 /* Part C: Artists Panel */
 /*************************/
 
-/* Your Code Here */
 
+article {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    align-items: flex-start center;
+
+}
+section {
+    border-radius: 7px 7px 7px 7px;
+    width: 18%;
+    height: 40%;
+    display: flex;
+    background-color: #222222
+    
+}
+img{
+    border-radius: 60%;
+    width: 90%;
+    padding: 10px;
+}
+.current-song img{
+    border-radius: 0%;
+    width: auto;
+    padding: 0px;
+}
+
+  
 
 
 
@@ -107,6 +155,31 @@ footer {
 /* Part D: Responsive UIs */
 /**************************/
 
-/* Your Code Here */
-
-
+@media only screen and (max-width: 1000px) {
+   article {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+    flex-direction: row;
+    align-items: flex-start center;
+   }
+    
+    section {
+        width: 33%;
+}
+@media only screen and (max-width: 750px) {
+    article {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap; 
+     flex-direction: row;
+     align-items: flex-start center;
+    }
+     
+     section {
+         width: 48%;
+ }
+ aside {
+     display: none;
+ }
+ 

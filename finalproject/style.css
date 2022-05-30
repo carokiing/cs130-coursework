@@ -1,0 +1,35 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap');
+</style>
+* {
+    box-sizing: border-box;
+}
+h2 {
+    font-family: 'Manrope', sans-serif;
+}
+body {
+    margin: 0px;
+    font-family: 'Manrope', sans-serif;
+}
+header, section {
+    padding: 20px;
+    min-height: 40vh;
+    background-color: #c0c0c0;
+}
+p, li {
+    line-height: 1.5em;
+}
+#tutorials {
+    background-color:rgb(224, 111, 111);
+}
+#classwork {
+    background-color: #C9D5B5;
+}
+#homework {
+background-color: #B07156;
+}
+#inspiration {
+    background-color: #539B66;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}

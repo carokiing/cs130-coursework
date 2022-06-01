@@ -111,7 +111,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		font-weight: 400;
-		color: #592b2d;
+		color: #733134;
 		line-height: 1.25em;
 	}
 
@@ -140,7 +140,7 @@ input, select, textarea {
 
 	strong, b {
 		font-weight: 400;
-		color: #651010;
+		color: #733134;
 	}
 
 	em, i {
@@ -1935,7 +1935,7 @@ input, select, textarea {
 			}
 
 				ul.icons li a:hover {
-					color: #ef8376;
+					color: #733134;
 				}
 
 /* Form */
@@ -1943,7 +1943,7 @@ input, select, textarea {
 	form label {
 		display: block;
 		font-weight: 400;
-		color: #483949;
+		color: #733134;
 		margin: 0 0 1em 0;
 	}
 
@@ -1972,7 +1972,7 @@ input, select, textarea {
 		form select:focus,
 		form textarea:focus {
 			background: #fff;
-			border-color: #df7366;
+			border-color: #733134;
 		}
 
 	form input[type="text"],
@@ -2055,7 +2055,7 @@ input, select, textarea {
 	.button {
 		position: relative;
 		display: inline-block;
-		background: #df7366;
+		background: #733134;
 		color: #fff;
 		text-align: center;
 		border-radius: 0.5em;
@@ -2077,7 +2077,7 @@ input, select, textarea {
 		button:hover,
 		.button:hover {
 			color: #fff;
-			background: #ef8376;
+			background: #733134;
 		}
 
 		input[type="button"].alt,
@@ -2085,7 +2085,7 @@ input, select, textarea {
 		input[type="reset"].alt,
 		button.alt,
 		.button.alt {
-			background: #2B252C;
+			background: #733134;
 		}
 
 			input[type="button"].alt:hover,
@@ -2093,7 +2093,7 @@ input, select, textarea {
 			input[type="reset"].alt:hover,
 			button.alt:hover,
 			.button.alt:hover {
-				background: #3B353C;
+				background: #733134;
 			}
 
 /* Post */
@@ -2146,7 +2146,7 @@ input, select, textarea {
 		.icon.circled {
 			position: relative;
 			display: inline-block;
-			background: #2b252c;
+			background: #733134;
 			color: #fff;
 			border-radius: 100%;
 			width: 3em;
@@ -2257,7 +2257,7 @@ input, select, textarea {
 
 		body.homepage #header:after {
 			content: '';
-			background: #1C0920;
+			background: #733134;
 			display: block;
 			position: absolute;
 			left: 0;
@@ -2290,7 +2290,7 @@ input, select, textarea {
 		padding: 1.0em 0 1.0em 0;
 		z-index: 1;
 		overflow: hidden;
-		background-color: #1C0920;
+		background-color: #4c1517;
 	}
 
 		#nav > ul {
@@ -2373,7 +2373,7 @@ input, select, textarea {
 			}
 
 			.dropotron li:hover {
-				color: #ef8376;
+				color: #733134;
 			}
 
 			.dropotron li a, .dropotron li span {
@@ -2457,13 +2457,13 @@ input, select, textarea {
 		position: relative;
 		overflow: hidden;
 		padding: 6em 0 6em 0;
-		background: #2b252c;
+		background: #4c1517;
 		color: #fff;
 	}
 
 		#footer .icon.circled {
 			background: #fff;
-			color: #2b252c;
+			color: #4c1517;
 		}
 
 		#footer header {
@@ -2546,7 +2546,7 @@ input, select, textarea {
 			}
 
 			.carousel .forward:hover:before, .carousel .backward:hover:before {
-				background-color: rgba(239, 131, 118, 0.75);
+				background-color: #4c1517;
 			}
 
 		.carousel .forward {

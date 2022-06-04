@@ -2922,7 +2922,7 @@ input, select, textarea {
 						position: absolute;
 						left: 50%;
 						margin-left: -40px;
-						background: rgba(132, 128, 136, 0.75);
+						background: #716162;
 						border-top: 0;
 						border-radius: 0 0 0.35em 0.35em;
 					}
@@ -2948,7 +2948,7 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 10002;
-				background: #1f1920;
+				background: #4c1517;
 				box-shadow: inset 0px -2px 5px 0px rgba(0, 0, 0, 0.25);
 				font-size: 1em;
 			}
